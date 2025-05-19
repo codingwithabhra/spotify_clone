@@ -1,0 +1,60 @@
+.red-border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: #000;
+    color: #fff;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.m-1{margin: 5px;}
+
+.p-1{padding: 10px;}
+
+/* Scrollbar for WebKit Browsers */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  /* Track (Background of scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background */
+    border-radius: 10px;
+  }
+  
+  /* Handle (Movable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #444; /* Medium-dark handle */
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Lighter shade for hover effect */
+  }
+  
